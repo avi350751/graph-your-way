@@ -6,7 +6,7 @@ A comprehensive, hands-on guide to mastering **LangGraph** through progressive e
 
 LangGraph is a library for building stateful, multi-actor applications with LLMs. This repository demonstrates how to design and implement various workflow patterns using LangGraph's core concepts: **state graphs**, **nodes**, **edges**, and **execution flows**.
 
-Each notebook builds upon the previous one, introducing new concepts while reinforcing core ideas.
+Each notebook builds upon the previous one, introducing new concepts while reinforcing core ideas. With 8 progressive notebooks, you'll advance from fundamentals to production-ready parallel workflows.
 
 ## 🎯 Learning Path
 
@@ -95,6 +95,21 @@ Each notebook builds upon the previous one, introducing new concepts while reinf
 
 ---
 
+### **Notebook 8: Advanced Parallel Workflow** (`08_advanced_parallel_workflow.ipynb`)
+**Topics:** Complex multi-branch parallel workflows with LLMs
+
+- Create sophisticated parallel workflows with multiple concurrent branches
+- Process content through multiple analysis paths simultaneously
+- Integrate LLM calls in parallel branches
+- Merge and aggregate results from different processors
+- Build production-ready content processing pipelines
+
+**Project:** Story processor that generates content and creates quizzes, ratings, and improvement suggestions in parallel
+
+**Concepts:** Advanced parallelization, multi-branch workflows, LLM integration in parallel, result aggregation
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -145,7 +160,7 @@ export OPENAI_API_KEY="your-api-key-here"
 
 2. **Navigate to a notebook** and run cells sequentially from top to bottom
 
-3. **Follow the progression** from Notebook 1 to 7 for the best learning experience
+3. **Follow the progression** from Notebook 1 to 8 for the best learning experience
 
 ### Recommended Approach
 
@@ -159,16 +174,17 @@ export OPENAI_API_KEY="your-api-key-here"
 
 ```
 langgraph-recipes/
-├── 01_intro_to_langgraph.ipynb      # Fundamentals
-├── 02_practical_example1.ipynb      # First workflow
-├── 03_practical_example2.ipynb      # Branching logic
-├── 04_sequential_workflow.ipynb     # Multi-stage processing
-├── 05_llm_workflow.ipynb            # LLM integration
-├── 06_prompt_chaining.ipynb         # Advanced LLM patterns
-├── 07_parallel_workflow.ipynb       # Concurrent execution
-├── main.py                          # Standalone entry point
-├── pyproject.toml                   # Project configuration
-└── README.md                        # This file
+├── 01_intro_to_langgraph.ipynb          # Fundamentals
+├── 02_practical_example1.ipynb          # First workflow
+├── 03_practical_example2.ipynb          # Branching logic
+├── 04_sequential_workflow.ipynb         # Multi-stage processing
+├── 05_llm_workflow.ipynb                # LLM integration
+├── 06_prompt_chaining.ipynb             # Advanced LLM patterns
+├── 07_parallel_workflow.ipynb           # Concurrent execution
+├── 08_advanced_parallel_workflow.ipynb  # Complex parallel workflows with LLMs
+├── main.py                              # Standalone entry point
+├── pyproject.toml                       # Project configuration
+└── README.md                            # This file
 ```
 
 ## 🔑 Key Concepts
@@ -255,4 +271,4 @@ This project is provided as-is for educational purposes.
 
 **Happy Learning! 🚀**
 
-Start with `01_intro_to_langgraph.ipynb` and progress through each notebook in order for the best learning experience.
+Start with `01_intro_to_langgraph.ipynb` and progress through all 8 notebooks in order for the best learning experience.
